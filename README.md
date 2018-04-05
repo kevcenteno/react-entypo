@@ -1,9 +1,17 @@
 # Entypo Icons - React Component
 > A React component for the Entypo SVG icon library.
 
-React-Entypo sets up all the icons of the [Entypo SVG library](http://www.entypo.com/ "Entypo") to be used as components which will render as inline SVGs. Both the main set and the Social Extension are included. This component is designed to use Entypo SVGs as inline icons and are set with default inline styling to be the same size as the base text in the container they're placed. No CSS is supplied by 'react-entypo-icons'; therefore, any other styles will have to be passed to the component or set by style declarations elsewhere.
+React-Entypo-Icons sets up all the icons of the [Entypo SVG
+library](http://www.entypo.com/ "Entypo") to be used as components which will
+render as inline SVGs. Both the main set and the Social Extension are included.
+This component is designed to use Entypo SVGs as inline icons and are set with
+default inline styling to be the same size as the base text in the container
+they're placed. No CSS is supplied by 'react-entypo-icons'; therefore, any
+other styles will have to be passed to the component or set by style
+declarations elsewhere.
 
-The SVGs use the same names as the files in the Entypo SVG library, but camel-cased instead of hyphens, and any special characters removed.
+The SVGs use the same names as the files in the Entypo SVG library, but
+camel-cased instead of hyphens, and any special characters removed.
 
 ## Install
 
@@ -27,7 +35,9 @@ import React from 'react';
 import {EntypoArrowBoldRight, EntypoCalculator} from 'react-entypo-icons';
 ```
 
-...or, reference the icon by file. Initial path is 'react-entypo-icons/lib/entypo/[ICONNAME]' where ICONNAME is the name of the icon (PascalCased).**[1]**
+...or, reference the icon by file. Initial path is
+'react-entypo-icons/lib/entypo/[ICONNAME]' where ICONNAME is the name of the
+icon (PascalCased).**[1]**
 ```js
 import React from 'react';
 import EntypoArrowBoldRight from 'react-entypo-icons/lib/entypo/ArrowBoldRight';
@@ -54,9 +64,20 @@ Examples:
 
 Other attributes can be passed but have no defaults. Examples include `data-` or `id` attributes.
 
-> **[1]** - This will reduce the final package size.  Using the object notation in the above examples brings with them all the icons in that object (all 411 of them).  By referencing with the path name to the icon specifically means that only those specified will be in the final build file.  The downside is notation; however, as it's much easier to use the object notation as noted above to reference the icons and leaves fewer lines of code in your development files.</small>
+> **[1]** - This will reduce the final package size.  Using the object notation
+> in the above examples brings with them all the icons in that object (all 411
+> of them).  By referencing with the path name to the icon specifically means
+> that only those specified will be in the final build file.  The downside is
+> notation; however, as it's much easier to use the object notation as noted
+> above to reference the icons and leaves fewer lines of code in your
+> development files.</small>
 
-> **[2]** - The default of "vertical-align:text-top" is due to the way the icons are created and being presented.  Since the icons are usually used inline with text, forcing alignment to base off text-top allows for better vertical spacing.  However, if an icon is used alone, setting vertical-alignment to "middle" works better visually since there's no text adjacent to provide any contextual vertical spacing issues.
+> **[2]** - The default of "vertical-align:text-top" is due to the way the
+> icons are created and being presented.  Since the icons are usually used
+> inline with text, forcing alignment to base off text-top allows for better
+> vertical spacing.  However, if an icon is used alone, setting
+> vertical-alignment to "middle" works better visually since there's no text
+> adjacent to provide any contextual vertical spacing issues.
 
 ---
 ## Attribution
