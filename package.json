@@ -19,9 +19,10 @@
   "homepage": "https://github.com/kevcenteno/react-entypo-icons",
   "main": "lib/index.js",
   "scripts": {
-    "build": "babel src --out-dir lib",
+    "build": "babel src --out-dir lib --copy-files",
     "prepublishOnly": "npm run build"
   },
+  "types": "lib/index.d.ts",
   "devDependencies": {
     "babel-cli": "^6.6.5",
     "babel-core": "^6.7.4",
